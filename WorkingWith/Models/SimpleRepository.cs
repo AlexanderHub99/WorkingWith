@@ -5,7 +5,7 @@
         public static SimpleRepository ShardRepositiry { get; } = new SimpleRepository();
         private readonly Dictionary<string, Product> _products = new Dictionary<string, Product>();
 
-        public SimpleRepository()
+        private SimpleRepository()
         {
             var init = new[]
             {
